@@ -1,1 +1,63 @@
+SISTEMAS DE COMPUTAÇÃO DISTRIBUÍDOS DE ALTO DESEMPENHO
+Cluster
+supercomputadores que usam solução de
+prateleira, conectando vários computadores em uma rede de
+alta velocidade, Conjunto de nós controlados e acessados por um único nó
+mestre.
+Cluster em uma rede local LAN
+
+Oscar
+O cluster é composto de 42 máquinas
+
+memoria compartilhada todos processadores juntosprocessador e memoria junto com interconexao
+
+memoria distribuida
+processador distribuido junto com memoria a interconexao é junta mas o processador e memoria
+separados
+
+Grades
+Conectados por redes de diferentes capacidades, remotamente distribuido porem
+computador monitora ociosidade do pc e distribui a grades, recursos podem se juntar
+ou deixar a grade sem aviso prèvio
+clusters X grades
+
+a nuvem atualmente melhor que grades
+waze usuario processa o front, e a nuvem processa o back end
+
+obtem recursos (software e hardware) atraves da rede
+Hardware datacenter
+infraestruta Amazon S3, tecnicas de virtualização
+plataforma Azure, container, fornece abstração, APis
+Aplicação, programação, app reais, suites de escritorios 
+Nuvens substituiram as grades
+
+Propriedades de trasações, ACID
+
+RPC enviar requisição a outro componente, exectando uma chamada de procedimento
+
+RMI orientada a objetos em vez de aplicações
+
+microoserviçoes se comunicando como se fosse em nós
+
+MOM Middleware orientado a mensagem, Sistemas Publisher/subscriber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
