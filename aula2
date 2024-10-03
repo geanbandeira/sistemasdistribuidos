@@ -41,6 +41,46 @@ microoserviçoes se comunicando como se fosse em nós
 
 MOM Middleware orientado a mensagem, Sistemas Publisher/subscriber
 
+Arquitetura
+organização do software
+Organização lógica do conjunto de componentes -> Estilo Arquitetônico -> Parte lógica
+Arquitetura em camadas, baseada em objetos e orientada a serviços, centrada em recursos,
+baseada em eventos
+
+A organização física dos componentes -> Arquitetura de sistema ->Parte física
+Arquiteturas Centralizadas Tradicionais, Descentralizadas e Híbridas
+
+camada middleware separa a aplicação do software
+Transparencia, ocultar do usuario final, ni
+componente = nó Componente é uma unidade modular com interfaces
+requeridas e fornecidas bem definidas que é substituível dentro de seu ambiente. 
+
+Conector serve como mediador, ex TPC/IP
+protocolos = regras
+Arquitetura em camadas, unidirecional
+conversa no nivel que precisa, protocolo de redes
+
+Aplicação em camadas 3 camadas
+interface 
+processamento, funções da aplicação
+dados, que o cliente manipula
+
+camada tem um fluxo
+objeto tem metodo, um objeto pode conversar com qualquer um
+
+Arquiteturas centradas em recursos
+RestFul cria metodos q tem requisições
+Todos os serviços oferecem a mesma interface
+
+Objetos (arquivos) são colocados em buckets (diretórios). 
+
+Arquiteturas baseadas em eventos 
+Processos publicam eventos
+Sistemas Publisher/Subscriber
+Os processos são fracamente acoplados
+Processos não precisam se referir especificamente uns aos outros
+middleware assegura que somente os processos assinantes irao receber esses eventos
+assinante da informação vao poder ler, apenas alguns nós
 
 
 
