@@ -1,0 +1,65 @@
+dados
+backend api
+front end
+Distribuição vertical - cliente servidor
+Divide componentes logicamente diferentes em máquinas diferentes
+Distribuição horizontal - peer to peer
+Cada processo agirá como servidor e cliente ao mesmo tempo
+Arquitetura como o sistema se organiza
+
+Diferença é que a distribuição horizontal a maquina é cliente e servidor ao mesmo tempo, 
+na distribuição vertical, cada camada é implementada em uma máquina diferente, arquitetura 
+descentralizada
+
+Processos não se comunicam diretamente e sim por meio dos
+canais de comunicação disponíveis.
+Existem 2 tipos de redes de sobreposição: Estruturadas e Não estruturadas
+PEER TO PEER ESTRUTURADAS
+Exemplo: Sistema Chord, torrent
+
+Sistema de arquivo tabela hash distribuida para localizar arquivos
+Problema, fisicamente maquinas distantes, caminho longo
+
+PEER TO PEER NÃO ESTRUTURADAS
+Consulta de um dado é feita através de inundação da rede ou caminhada aleatória 
+Pergunta para todas as maquinas
+Ex broadcast pergunta para todos, mantem uma lista de vizinhos, principio da internet
+
+SUPERPEERS maquinas especiais nas redes, resulta em uma organização hierarquica
+organizar em uma maquina melhor as informações e conteudos de outras maquinas inferiores 
+o nó deve ser altamente disponível, uma vez que muitos outros nós contarão com ele
+capacidade suficiente para processar as requisições.
+
+ARQUITETURAS HÍBRIDAS
+cliente-servidor são combinadas com arquiteturas descentralizadas
+distr vertical e distr horizontal
+Ex WhatsApp comunicação descentralizada
+
+Sistemas de Servidor de Borda
+ISP provedor de internet
+clientes em geral, se conectam com a internet por meio de um servidor de borda
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
