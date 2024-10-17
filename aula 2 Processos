@@ -1,0 +1,68 @@
+Comunicação entre processos
+Processos obedecem os protocolos
+Ex Osi modelo teorico
+camada fisica do OSI por exemplo, sinaliza com sinais eletricos
+camada se comunicam de cima para baixo e deo=pois sobe, mas em pratica se comunicam em
+camdas uma com a outra
+
+Camada de middleware provem serviços e protocolos, organiza os dados
+Ex DNS procura endereço de rede com base no nome, suario só acessa o que é autorizado
+Comunicação Persistente
+Uma mensagem é armazenada pelo middleware de comunicação
+durante o tempo que for necessário para entregá-la ao receptor
+minddleware guarga a mensagem por ex no email
+
+Comunicação Transiente
+Uma mensagem é armazenada pelo middleware de comunicação somente durante o tempo em que
+a aplicação remetente e a aplicação receptora estiverem executando, os dois tem q estar online
+Ex ligação por telefone
+
+Comunicação Assíncrona
+Remetente continua sua execução imediatamente após ter submetido sua mensagem para transmissão
+
+Comunicação Síncrona bloqueador de processos
+
+comunicação transiente é síncrona 
+comunicação persistente é assincrona, email correio
+
+Comunicação orientada a objetos
+RPC fazer processos realizados em outras maquinas
+
+Stub empacotamento, Stub cliente e Stub servidor desempacotador 
+Responsável por empacotar os parâmetros em uma mensagem e enviá-la para a máquina do servidor
+Quando a resposta chega, o resultado é copiado para o cliente, e o controle volta a ele
+read RPC local
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
