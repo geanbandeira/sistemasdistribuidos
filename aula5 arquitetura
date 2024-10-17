@@ -1,0 +1,48 @@
+Arquitetura
+Arquitetura Centralizada
+● Cliente: é um processo que requisita a um serviço
+● Servidor: é um processo que oferece um serviço
+
+● Arquitetura Descentralizada
+Peers: Por nós, os processos que constituem um sistema descentralizado são todos iguais são clientes e
+servidores ao mesmo tempo)
+
+A interação entre o cliente e o servidor também é conhecida como comportamento de
+requisição-resposta;
+
+Podemos dividir em três níveis:
+● Nível de interface de usuário, consulta e respostas o front da aplicação
+● Nível de processamento (aplicação)
+● Nível de dado (Repositório)
+
+Cliente Magro: quando a aplicação no lado do cliente tem apenas a responsabilidade de mostrar
+informações para o usuário (o processamento e o dado estão em um servidor);
+Cliente Gordo: quando não existe o papel do servidor para processar o dado, servindo apenas
+para armazenar dados;
+Aplicação mobile 2 camadas
+
+3 camadas é ideal quando deseja os 3 níveis citados
+A interface está na máquina do cliente, O processamento e o dado em servidores distintos
+3 camadas adiciona a camada banco de dados
+
+Descentralizada, P2P um nó de processamento podem ser cliente e servidor ao mesmo tempo, 
+Os nós são o sprocessos
+
+Diferença entre sistema estruturado e um sistema não estruturado
+Estruturado tem o endereço é organizado com a tabela hash ● Requisição é roteada entre os
+nós até que o nó com o dado requisitado seja alcançado;
+Não estruturada encontra os dados inundando a rede com uma busca
+
+Super Pares mantem o indice dos nós perto deles, seguimenta as estruturas
+
+Sistema hibrido onde as soluções centralizadas são combinadas com as arquiteturas descentralizadas
+Torent exemplo, cliente entra no servidor web, arquitetura centralizada e no final tem  os nós,
+arquitetura descentralizada
+
+Responder questionarios
+
+
+
+
+
+
