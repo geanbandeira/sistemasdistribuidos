@@ -1,0 +1,12 @@
+Processos
+Diferentes tipos de processos desempenham papel crucial em sistemas distribuídos
+pegar varias threads tarefas e jogar em diversas maquinas, aumentando o desemprenho
+o SO se materializa atraves do bloco de controle de processos PCB
+gerenica de processos é feita por rotinas do SO funções de criação eliminaçãoe sincronização
+transparencia = oculto
+gerenciamento de processos salva o contexto da CPU e carrega novo contexto
+pode sofrer sobrecarga, todo processo gasta processamento
+threads tarefas executadas
+multithread um processo pode ter varios fluxos de controlethreads
+A principal desvantagem de IPC é que a comunicação muitas vezes requer extensivo chaveamento de contexto
+
