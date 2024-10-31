@@ -9,4 +9,15 @@ pode sofrer sobrecarga, todo processo gasta processamento
 threads tarefas executadas
 multithread um processo pode ter varios fluxos de controlethreads
 A principal desvantagem de IPC é que a comunicação muitas vezes requer extensivo chaveamento de contexto
+threads implementação
+modo usuário mais barato 
+modo nucleo do sistema chamadas ao sistema
+abordagem hibrida pega o melhor dos dois mundos LWP
+chamada bloquadora ele depende de outra coisa para continuar processamento
+biblioteca conjunto de metodos auxiliares
+aplicações tem diversos processos
+bloqueia chamadas mas nao bloqueia o processo inteiro, os threads é atraente ao SD
+ser multi tarefas melhora a velocidade de processamento ex aplicação web, trazer dados e enviar dados
+servidores redundantes, datacenters clientes multithreads, depende de servidores replicados, varios
+servidores, varios sub processos
 
