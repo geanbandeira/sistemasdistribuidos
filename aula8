@@ -1,0 +1,49 @@
+Virtualização para Processos
+fazer mais coisas ao mesmo tempo
+paralelismo é dada pelo chaveamento rápido entre threads e processos
+na verdade é uma terefa por vez
+Arquitetura de maq. virtuais
+aplicação, biblioteca, S.O. e hardware
+4 interfaces uma de cada
+Máquina virtual de processo
+aplicação sistema de execução, SO e hardware, ambiente de execução java ex
+Monitor de máquina virtual
+aplicação SO maquina virtual e hardware, simultaneamente varios SOs executadores
+ex virtual box
+processo nao ficar amarrado ao hardware que nasceu
+EXECUTANDO UMA CHAMADA AO
+SISTEMA OPERACIONAL
+Processo | Hardware | Sistema Operacional 
+
+Sistemas Operacionais Distribuidos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
