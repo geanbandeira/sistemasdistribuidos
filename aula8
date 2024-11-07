@@ -49,8 +49,13 @@ multi processadores
 multi computadores
 k42 kernel
 
+Prova
+RPC e RMI
 
-
+DSM
+processa e registra dados
+memoria virtual um pedaço da memoria de cada maquina, pode ter problemas de latencia
+na rede
 
 
 
