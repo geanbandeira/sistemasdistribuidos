@@ -1,0 +1,19 @@
+prova 2 | Trabalho curso udemy fazer na maquiina virtual e sobe aqui na faculdade
+
+memoria distribuida para frente
+SOA
+Sistema de nomeação
+
+Sistema de nomeação compartilha recursos e identifica entidades
+a implementação dos sistema de nomes costuma ser distribuidos por varias maquina
+maior exemplo DNS, nao é centralizado, nao tem como derrubar, 3 servidores que são replicados
+nome referenciar uma entidade, endereço
+entidade hosts, computador... são acessadas atraves de ponto de acesso
+um ponto de acesso pode mudar ao longo do tempo
+sistema de nomeação é uma tebela de pares nome, endereço
+broadcast manda para todos, aumeta probabilidade de colisões de mensagens
+multicast manda para um grupo,  
+Ponteiros Repassadores usado para localização de entidades moveis
+
+
+Estudar para prova na prixima aula
